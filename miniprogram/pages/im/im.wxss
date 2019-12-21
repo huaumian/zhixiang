@@ -1,0 +1,6 @@
+.container{
+    position: relative;
+}
+.other-widget{
+    position: absolute;
+}

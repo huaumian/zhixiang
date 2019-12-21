@@ -1,0 +1,12 @@
+<form bindsubmit='res'>
+    <view class="section__title">input</view>
+    <input class="input" maxlength="-1" name="content" placeholder="please input here" />
+  <button class="button"form-type='submit'>提交</button>
+</form>
+<button bindtap="read">read</button>
+
+<view class="title">总数:{{hhh}}</view>
+  <view class='box' wx:for='{{list}}' wx:key='{{index}}' data-id='{{item.id}}' >
+      <view>时间：{{item.time}}</view>
+      <view>分数：{{item.content}}</view>
+  </view>

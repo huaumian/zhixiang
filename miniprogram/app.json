@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/im/im"
+  ],
+  "tabBar":{
+    "color":"#666666",
+    "selectedColor":"blue",
+    "borderStyle":"black",
+    "backgroundColor":"#ffffff",
+    "list":[{"pagePath": "pages/im/im",
+        "iconPath": "images/zhixiang.png",
+        "selectedIconPath": "images/full.png",
+        "text": "计重"
+      
+    },
+    {
+     "pagePath": "pages/index/index",
+    "iconPath": "images/jifen.png",
+    "selectedIconPath": "images/qian.png",
+    "text": "积分"
+    }
+
+    ]
+
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "自助纸箱回收机",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

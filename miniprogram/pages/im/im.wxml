@@ -1,0 +1,8 @@
+<view>
+<button bindtap="Read">onenet</button>
+</view>
+<view>{{result}}</view>
+<view class="container">
+    <image class="bgImg" src="../../images/background.png"></image>
+    <other-widget class="other-wigdget"></other-widget>  <!-- other widget希望是放在背景图片之上的 -->
+</view>
